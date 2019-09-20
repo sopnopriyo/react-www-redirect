@@ -1,8 +1,8 @@
 # React-www-redirect
 
-**⚠️ Security note ⚠️ - This element provides a client-side option when server-enforced www redirects are not possible. Please don’t use this if you can configure the server.
+> ⚠️ Security note ⚠️ - This element provides a client-side option when server-enforced www redirects are not possible. Please don’t use this if you can configure the server.
 
-The element redirects the current page to www, unless the page is loaded from a web server that is running on localhost.** 
+The element redirects the current page of your React Application to www, unless the page is loaded from a web server that is running on localhost.
 
 # Installation
 
@@ -12,7 +12,7 @@ Using npm:
 
 
 ```
-import `WWWRedirect` from 'react-www-redirect';
+import WWWRedirect from 'react-www-redirect';
 
 // you can just wrap your entire app to redirect it to the equivalent www version
 // for example:
