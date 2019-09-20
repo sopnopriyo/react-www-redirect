@@ -8,6 +8,7 @@ const isLocalHost = hostname => !!(
 
 const protocol = window.location.protocol;
 
+const isWWWExists = window.location && window.location.href.startsWith(protocol+"//www.");
 
 const WWWRedirect = ({ disabled, children }) => {
   if (
@@ -15,6 +16,7 @@ const WWWRedirect = ({ disabled, children }) => {
     typeof window !== 'undefined' &&
     window.location &&
     !isLocalHost(window.location.hostname)
+    && !isWWWExists
   ) {
     window.location.href = window.location.href.replace(
       protocol + '//',
