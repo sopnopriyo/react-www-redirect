@@ -1,6 +1,6 @@
 {
     "name": "react-www-redirect",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Force a redirect to WWW when not on a local web server.",
     "main": "lib/index.js",
     "scripts": {
@@ -32,7 +32,7 @@
         "babel-preset-stage-0": "6.24.1",
         "eslint": ">=6.4.0",
         "eslint-config-airbnb": "18.0.1",
-        "eslint-plugin-react": "7.14.3"
+        "eslint-plugin-react": "^7.14.3"
     },
     "dependencies": {
         "prop-types": "^15.7.2"
