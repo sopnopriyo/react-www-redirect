@@ -10,6 +10,7 @@ Using npm:
 
 `npm install --save react-www-redirect`
 
+Update your `index.js` file as below:
 
 ```
 import WWWRedirect from 'react-www-redirect';
