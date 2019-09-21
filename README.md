@@ -1,5 +1,5 @@
 # React-www-redirect
-[![npm](https://img.shields.io/npm/v/react-https-redirect.svg)](https://www.npmjs.com/package/react-www-redirect)
+[![npm](https://img.shields.io/npm/v/react-www-redirect.svg)](https://www.npmjs.com/package/react-www-redirect)
 
 > ⚠️ Security note ⚠️ - This element provides a client-side option when server-enforced www redirects are not possible. Please don’t use this if you can configure the server.
 
